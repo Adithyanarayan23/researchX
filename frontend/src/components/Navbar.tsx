@@ -25,7 +25,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   activeJobId,
 }) => {
   const navItems = [
-    { id: 'dashboard', label: 'Dashboard', icon: Compass },
+    { id: 'landing', label: 'Overview', icon: Compass },
+    { id: 'dashboard', label: 'Dashboard', icon: Search },
     { id: 'progress', label: 'Live Progress', icon: Activity, badge: activeJobId ? 'Active' : undefined },
     { id: 'report', label: 'Report Viewer', icon: FileText },
     { id: 'evidence', label: 'Evidence & Claims', icon: ShieldCheck },
@@ -38,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header className="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand */}
-        <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
+        <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('landing')}>
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-brand-400 flex items-center justify-center shadow-lg shadow-brand-500/20">
             <Search className="w-5 h-5 text-white stroke-[2.5]" />
           </div>

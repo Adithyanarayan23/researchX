@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Navbar } from './components/Navbar';
+import { LandingPage } from './components/LandingPage';
 import { Dashboard } from './components/Dashboard';
 import { LiveProgress } from './components/LiveProgress';
 import { ReportViewer } from './components/ReportViewer';
@@ -103,6 +104,15 @@ export function App() {
 
       {/* Main Content Body */}
       <main className="flex-1 pb-16">
+        {activeTab === 'landing' && (
+          <LandingPage
+            onEnterDashboard={() => setActiveTab('dashboard')}
+            onLaunchQuery={(q) => {
+              handleLaunchResearch(q, 'standard', []);
+            }}
+          />
+        )}
+
         {activeTab === 'dashboard' && (
           <Dashboard
             jobs={jobs}
