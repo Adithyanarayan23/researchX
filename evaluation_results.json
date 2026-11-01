@@ -1,0 +1,52 @@
+{
+  "total_evaluated": 2,
+  "aggregate_metrics": {
+    "avg_precision_at_3": 0.5,
+    "avg_recall_at_5": 0.6666,
+    "avg_context_relevance": 0.2659,
+    "avg_context_completeness": 0.1666,
+    "avg_faithfulness": 1.0,
+    "avg_claim_support_rate": 1.0,
+    "avg_unsupported_claim_rate": 0.0,
+    "avg_citation_accuracy": 1.0,
+    "avg_source_diversity": 1.0,
+    "avg_source_quality": 0.8333,
+    "avg_conflict_detection_rate": 0.0
+  },
+  "detailed_results": [
+    {
+      "id": "eval_01",
+      "question": "Analyze the Indian AI startup ecosystem and identify the most promising companies.",
+      "metrics": {
+        "precision_at_3": 0.3333,
+        "recall_at_5": 0.5,
+        "context_relevance": 0.1818,
+        "context_completeness": 0.3333,
+        "faithfulness": 1.0,
+        "claim_support_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "citation_accuracy": 1.0,
+        "source_diversity": 1.0,
+        "source_quality": 0.8333,
+        "conflict_detection_rate": 0.0
+      }
+    },
+    {
+      "id": "eval_02",
+      "question": "Compare NVIDIA, AMD and Intel in the AI chip market.",
+      "metrics": {
+        "precision_at_3": 0.6667,
+        "recall_at_5": 0.8333,
+        "context_relevance": 0.35,
+        "context_completeness": 0.0,
+        "faithfulness": 1.0,
+        "claim_support_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "citation_accuracy": 1.0,
+        "source_diversity": 1.0,
+        "source_quality": 0.8333,
+        "conflict_detection_rate": 0.0
+      }
+    }
+  ]
+}

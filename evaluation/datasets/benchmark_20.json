@@ -1,0 +1,162 @@
+[
+  {
+    "id": "eval_01",
+    "question": "Analyze the Indian AI startup ecosystem and identify the most promising companies.",
+    "category": "market",
+    "expected_entities": ["Sarvam AI", "Krutrim", "IndiaAI Mission", "NASSCOM"],
+    "expected_topics": ["Indic LLMs", "GPU compute", "funding"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_02",
+    "question": "Compare NVIDIA, AMD and Intel in the AI chip market.",
+    "category": "competition",
+    "expected_entities": ["NVIDIA", "AMD", "Intel", "Blackwell", "MI300X", "Gaudi 3"],
+    "expected_topics": ["data center revenue", "CUDA software moat", "memory bandwidth"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_03",
+    "question": "Research the impact of generative AI on software engineering jobs.",
+    "category": "market",
+    "expected_entities": ["GitHub Copilot", "developer productivity", "entry-level hiring"],
+    "expected_topics": ["velocity gain", "role transition", "boilerplate automation"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_04",
+    "question": "Analyze the cybersecurity risks of autonomous AI agents.",
+    "category": "technology",
+    "expected_entities": ["CISA", "prompt injection", "tool poisoning", "jailbreak"],
+    "expected_topics": ["privilege escalation", "memory contamination", "supply chain"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_05",
+    "question": "Compare AWS, Azure and Google Cloud for an AI startup.",
+    "category": "competition",
+    "expected_entities": ["AWS Bedrock", "Azure OpenAI", "Google Vertex AI", "TPU", "Trainium"],
+    "expected_topics": ["token cost", "compliance", "model selection"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_06",
+    "question": "Evaluate small language models versus frontier models for edge deployments.",
+    "category": "technology",
+    "expected_entities": ["Llama 3", "Phi-3", "Gemma", "quantization"],
+    "expected_topics": ["latency", "RAM footprint", "on-device inference"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_07",
+    "question": "Analyze the global market for humanoid robotics and manufacturing automation.",
+    "category": "market",
+    "expected_entities": ["Tesla Optimus", "Figure AI", "Boston Dynamics", "Agility Robotics"],
+    "expected_topics": ["actuators", "embodied AI", "unit economics"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_08",
+    "question": "Assess open source vs closed source LLMs in enterprise adoption.",
+    "category": "technology",
+    "expected_entities": ["Meta Llama", "Mistral", "OpenAI", "Anthropic"],
+    "expected_topics": ["data privacy", "fine-tuning", "license compliance"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_09",
+    "question": "Investigate sovereign AI initiatives across the European Union and the Middle East.",
+    "category": "government",
+    "expected_entities": ["EU AI Act", "Falcon LLM", "Mistral AI", "G42"],
+    "expected_topics": ["data sovereignty", "localized compute", "compliance mandates"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_10",
+    "question": "Analyze the commercialization of quantum computing for cryptographic resilience.",
+    "category": "technology",
+    "expected_entities": ["IBM Quantum", "IonQ", "NIST", "Post-Quantum Cryptography"],
+    "expected_topics": ["qubit coherence", "lattice cryptography", "migration timelines"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_11",
+    "question": "Compare vector databases: Milvus, Pinecone, Qdrant, and pgvector.",
+    "category": "technology",
+    "expected_entities": ["Pinecone", "Milvus", "Qdrant", "pgvector", "HNSW"],
+    "expected_topics": ["hybrid search", "indexing latency", "cost-per-million-vectors"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_12",
+    "question": "Research the environmental and power grid impact of hyperscale AI data centers.",
+    "category": "infrastructure",
+    "expected_entities": ["cooling systems", "nuclear SMR", "power purchase agreements"],
+    "expected_topics": ["megawatt capacity", "water consumption", "carbon emissions"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_13",
+    "question": "Assess agentic workflows versus monolithic fine-tuned models for enterprise automation.",
+    "category": "technology",
+    "expected_entities": ["LangGraph", "AutoGen", "CrewAI", "multi-agent coordination"],
+    "expected_topics": ["error recovery", "token efficiency", "state persistence"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_14",
+    "question": "Analyze the legal and copyright liabilities surrounding AI training data.",
+    "category": "legal",
+    "expected_entities": ["New York Times lawsuit", "fair use", "DMCA safe harbor"],
+    "expected_topics": ["licensing deals", "content scraping", "statutory damages"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_15",
+    "question": "Compare Mistral Large, Claude 3.5 Sonnet, and GPT-4o for complex coding benchmarks.",
+    "category": "competition",
+    "expected_entities": ["SWE-bench", "HumanEval", "Claude 3.5 Sonnet", "GPT-4o"],
+    "expected_topics": ["reasoning tokens", "refactoring accuracy", "context caching"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_16",
+    "question": "Analyze the emergence of AI code generation security vulnerabilities.",
+    "category": "security",
+    "expected_entities": ["OWASP Top 10", "hallucinated packages", "CVE", "slopsquatting"],
+    "expected_topics": ["supply chain injection", "insecure defaults", "static analysis"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_17",
+    "question": "Evaluate synthetic data generation for training next-generation foundational models.",
+    "category": "technology",
+    "expected_entities": ["model collapse", "rejection sampling", "RLAIF", "self-play"],
+    "expected_topics": ["data diversity", "distillation", "curriculum learning"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_18",
+    "question": "Research the competitive landscape of AI search engines: Perplexity, Google, and Bing.",
+    "category": "competition",
+    "expected_entities": ["Perplexity AI", "Google AI Overviews", "Microsoft Copilot"],
+    "expected_topics": ["publisher revenue sharing", "citation grounding", "latency"],
+    "has_conflict": true
+  },
+  {
+    "id": "eval_19",
+    "question": "Analyze privacy-preserving machine learning: federated learning and differential privacy.",
+    "category": "technology",
+    "expected_entities": ["Federated Averaging", "DP-SGD", "secure multiparty computation"],
+    "expected_topics": ["epsilon budget", "gradient leakage", "communication overhead"],
+    "has_conflict": false
+  },
+  {
+    "id": "eval_20",
+    "question": "Assess the economic viability of AI semiconductor startups versus incumbent duopoly.",
+    "category": "financial",
+    "expected_entities": ["Cerebras", "Groq", "SambaNova", "Tenstorrent"],
+    "expected_topics": ["wafer-scale engine", "LPU architecture", "capital intensity"],
+    "has_conflict": true
+  }
+]
